@@ -2,7 +2,7 @@
 Este proyecto es un sistema web CRUD diseñado para gestionar el mantenimiento de equipos de computo en un negocio de soporte técnico. Permite registrar usuarios, asociarlos a una PC, realizar seguimiento de mantenimientos y visualizar la información en tarjetas organizadas.
 
 📁 Estructura del proyecto
-
+````
 control_equipos/
 ├── assets/           # Recursos estáticos (CSS, JS, imágenes)
 ├── includes/         # Archivos PHP reutilizables (conexión, funciones)
@@ -12,6 +12,7 @@ control_equipos/
 ├── dashboard.php     # Panel principal de control
 ├── login.php         # Inicio de sesión
 └── logout.php        # Cierre de sesión
+````
 
 ✨ Funcionalidades principales
 
