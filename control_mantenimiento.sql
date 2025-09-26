@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 -- Base de datos: `control_mantenimiento`
 --
 
--- --------------------------------------------------------
+-- ---------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `equipos`
