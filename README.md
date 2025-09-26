@@ -15,7 +15,7 @@ control_equipos/
 └── logout.php        # Cierre de sesión
 ````
 
-✨ Funcionalidades principales
+✨ Funcionalidades principales.
 
 Gestión de usuarios: Agregar, editar, eliminar y listar clientes.
 
@@ -28,7 +28,7 @@ Gestión de usuarios: Agregar, editar, eliminar y listar clientes.
 - Autenticación de usuarios: Login y logout para acceder al sistema.
 
 
-🛠️ Tecnologías utilizadas
+🛠️ Tecnologías utilizadas.
 - PHP
   
 - MySQL
