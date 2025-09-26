@@ -5,7 +5,7 @@ Este proyecto es un sistema web CRUD diseñado para gestionar el mantenimiento d
 📁 Estructura del proyecto
 ````
 control_equipos/
-├── assets/           # Recursos estáticos (CSS, JS, imágenes)
+├── assets/           # Recursos estáticos (CSS e imágenes)
 ├── includes/         # Archivos PHP reutilizables (conexión, funciones)
 ├── public/           # Archivos accesibles públicamente
 ├── README.md         # Este archivo
