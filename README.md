@@ -41,7 +41,7 @@ Gestión de usuarios: Agregar, editar, eliminar y listar clientes.
 1. Clonar o descargar el proyecto
 bash
 ````
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/Saicroxzz/tu-repositorio.git
 cd tu-repositorio
 ````
 2. Base de datos
