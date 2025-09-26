@@ -65,7 +65,7 @@ function addMantenimiento($data) {
     }
 }
 
-function updateMantenimiento($data) {
+function updateMantenimiento($id_mantenimiento, $data) {
     global $pdo;
     try {
         $stmt = $pdo->prepare("
@@ -80,13 +80,14 @@ function updateMantenimiento($data) {
             $data['descripcion'],
             $data['costo'],
             $data['estado'],
-            $data['id_mantenimiento']
+            $id_mantenimiento
         ]);
     } catch (PDOException $e) {
         error_log("Error en updateMantenimiento: " . $e->getMessage());
         return false;
     }
 }
+
 
 function deleteMantenimiento($id) {
     global $pdo;
