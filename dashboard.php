@@ -4,6 +4,7 @@ session_start();
 require_once __DIR__ . "/../includes/config.php";
 require_once __DIR__ . "/../includes/equipos_functions.php";
 require_once __DIR__ . "/../includes/usuarios_functions.php";
+require_once __DIR__ . "/../includes/mantenimientos_functions.php"; // <-- Agregado
 
 if (!isset($_SESSION['user'])) {
     header("Location: login.php");
@@ -132,7 +133,24 @@ $user = $_SESSION['user'];
                     break;
 
                 case 'mantenimientos':
-                    include __DIR__ . "/mantenimientos/index.php";
+                    if (isset($_GET['action'])) {
+                        $action = $_GET['action'];
+                        switch ($action) {
+                            case 'add':
+                                include __DIR__ . "/mantenimientos/add.php";
+                                break;
+                            case 'edit':
+                                include __DIR__ . "/mantenimientos/edit.php";
+                                break;
+                            case 'delete':
+                                include __DIR__ . "/mantenimientos/delete.php";
+                                break;
+                            default:
+                                include __DIR__ . "/mantenimientos/index.php";
+                        }
+                    } else {
+                        include __DIR__ . "/mantenimientos/index.php";
+                    }
                     break;
 
                 default:
