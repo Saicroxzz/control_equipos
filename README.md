@@ -1,4 +1,4 @@
-🖥️ Sistema de Control de Mantenimiento de PCs
+🖥️ Sistema de Control de Mantenimiento de PCs.
 Este proyecto es un sistema web CRUD diseñado para gestionar el mantenimiento de equipos de computo en un negocio de soporte técnico. Permite registrar usuarios, asociarlos a una PC, realizar seguimiento de mantenimientos y visualizar la información en tarjetas organizadas.
 
 📁 Estructura del proyecto
